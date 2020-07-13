@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(255, 117, 140);
+    background-image: url('calc.jpg');
+}
+h1{
+    font-size: xx-large;
+    font-family: sans-serif;
+    background-color:rgb(226, 69, 95) ;
+    font-weight: 1000;
+}
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+#text1{
+    height: 50px;
+    width: 262px;
+    background-color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+#button1{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    background-color:rgb(226, 69, 95) ;
+    font-weight:bold ;
+}
+#button0{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    background-color:rgb(226, 69, 95) ;
+    font-weight:bold ;
+    font-size: 150%;
+}
+#button2{
+    width: 104px;
+    height: 50px;
+    font-size: xx-large;
+    background-color:rgb(226, 69, 95) ;
+    font-weight:bold ;
+}
+#button3{
+    width: 50px;
+    height:50px;
+    color:black;
+    font-size: xx-large;
+    background-color:rgb(226, 69, 95) ;
+    font-weight:bold ;
+
+}
+#button4{
+    width:50px;
+    height: 50px;
+    font-size: xx-large;
+    background-color:rgb(226, 69, 95) ;
+    font-weight:bold ;
+}
+#button5{
+    width:50px;
+    height: 50px;
+    font-size: xx-large;
+    font-weight:bold ;
+    background-color: white;
+    color:black;
+}
+

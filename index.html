@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>calculator</title>
+    <script>
+        function insert(num){
+            document.form.text.value=document.form.text.value+num;
+
+        }
+        function cal(){
+            var exp=document.form.text.value;
+            if (exp){
+                document.form.text.value=eval(exp);
+
+            }
+        }
+        function clean(){
+            document.form.text.value="";
+        }
+        function back(){
+            var text=document.form.text.value;
+            document.form.text.value=text.slice(0,-1);
+        }
+        
+    </script>
+
+
+</head>
+<body>
+    
+    <h1>  <marquee scrollamount=15>WELCOME TO CALCULATOR</marquee></h1>
+    <div class="center">
+        <form name="form">
+            <input id="text1" name="text" placeholder="Calculating Area"><br>
+        </form>
+        <input type="button" id="button1" value="1" onclick="insert(1)">
+        <input type="button" id="button1" value="2"onclick="insert(2)">
+        <input type="button" id="button1" value="3"onclick="insert(3)">
+        <input type="button" id="button1" value="c"onclick="back()">
+        <input type="button" id="button5" value="/"onclick="insert('/')">
+        <div>
+        <input type="button" id="button1" value="4" onclick="insert(4)">
+        <input type="button" id="button1" value="5"onclick="insert(5)">
+        <input type="button" id="button1" value="6"onclick="insert(6)">
+        <input type="button" id="button0" value="AC"onclick="clean()">
+        <input type="button" id="button5" value="x"onclick="insert('*')">
+        </div>
+        <div>
+        <input type="button" id="button1" value="7"onclick="insert(7)">
+        <input type="button" id="button1" value="8"onclick="insert(8)">
+        <input type="button" id="button1" value="9"onclick="insert(9)">
+        <input type="button" id="button1" value="0"onclick="insert(0)">
+        <input type="button" id="button5" value="+"onclick="insert('+')">
+
+
+        </div>
+        <div>
+        <input type="button" id="button2" value="00"onclick="insert('00')">
+        <input type="button" id="button1" value="."onclick="insert('.')">
+        <input type="button" id="button1" value="="onclick="cal()">
+        <input type="button" id="button5" value="-"onclick="insert('-')">
+        </div>
+    </div>
+
+</body>
+
+</html>
