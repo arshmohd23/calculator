@@ -2,12 +2,8 @@ body{
     background-color:rgb(255, 117, 140);
     background-image: url('calc.jpg');
 }
-h1{
-    font-size: xx-large;
-    font-family: sans-serif;
-    background-color:rgb(226, 69, 95) ;
-    font-weight: 1000;
-}
+
+
 .center{
   position: absolute;
   left: 50%;
